@@ -4,9 +4,9 @@
 }
 body{
     background:linear-gradient(180deg,#93b3e7,#ffffff,#93b3e7);
-    height: 90vh;
+
 }
-.btn{
+.btnwrapper{
     width:fit content;
     margin:2em auto;
 }
@@ -19,7 +19,7 @@ button {
     cursor: pointer;
     font-size: 16px;
     width:fit content;
-    margin:2em auto;
+    
   }
   
   button:hover {
@@ -30,8 +30,7 @@ button {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 3em;
-    height: 400px;
+    margin: 2em auto;
     border-radius: 40%;
     padding: 20px 10px;
 }
@@ -39,6 +38,6 @@ button {
     padding: 20px; 
 }
 .quote-box > p{
-    font-size: 3.5em;
-    padding: 40px; 
+    font-size: 2em;
+     
 }
