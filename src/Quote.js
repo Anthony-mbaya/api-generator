@@ -17,7 +17,7 @@ function Quote(){
     }
     return( 
         <>
-        <div className='btn'><button onClick={fetchApiFun} className='btn' >Generate Quote</button></div>
+        <div className='btnwrapper'><button onClick={fetchApiFun} className='btn' >Generate Quote</button></div>
         <div style={{color:'#c2bfbf', backgroundColor:backgroundColor}}  className="quote-box">
           <h1>Generate joke quotes from joke API</h1>
           <p>{quote}</p> 
