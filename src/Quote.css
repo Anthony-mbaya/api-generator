@@ -36,7 +36,7 @@ button:hover {
   margin: 3em;
   border-radius: 20px;
   padding: 20px;
-  width: fit-content;
+  width:fit-content;
 }
 .quote-box > h1 {
   margin: 20px auto;
@@ -44,24 +44,31 @@ button:hover {
   text-align: center;
   font-weight: bold;
   color: orangered;
+  font-size: 3.5em;
 }
 .quote-box > p {
-  font-size: 3.5em;
+  font-size: 3em;
   text-align: center;
 }
+@media screen and (max-width: 800px) {
+    .quote-box h1 {
+      font-size: 2.9em;
+    }
+    .quote-box p {
+      font-size: 2.6em;
+    }
+  }
 @media screen and (max-width: 576px) {
   .quote-box h1 {
     font-size: 2em;
+    margin: 5px auto;
   }
   .quote-box p {
-    font-size: 1.8em;
+    font-size: 1.7em;
+  }
+  .quote-box{
+    padding: 15px 5px;
+    margin: 1.2em;
   }
 }
-@media screen and (max-width: 800px) {
-  .quote-box h1 {
-    font-size: 2.9em;
-  }
-  .quote-box p {
-    font-size: 2.6em;
-  }
-}
+
